@@ -42,9 +42,6 @@ RUN curl -O https://downloads.gradle.org/distributions/gradle-$GRADLE_VERSION-bi
 
 ENV PATH=/opt/maven/bin/:/opt/gradle/bin/:$PATH
 
-# COPY default configuration file
-COPY ./contrib/settings.xml $HOME/.m2/
-
 # TODO: Copy the S2I scripts to /usr/libexec/s2i, since openshift/base-centos7 image
 # sets io.openshift.s2i.scripts-url label that way, or update that label
 COPY /s2i/bin/ /usr/local/s2i
