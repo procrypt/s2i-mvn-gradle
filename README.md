@@ -23,7 +23,7 @@ This builder/runtime s2i image can be used with SpringBoot, Vert.X, Wildfly Swar
 If you do not specify any BUILDER_ARGS, by default the s2i image will use the following:
 
 #### Maven Args
-`-Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga"`
+`-Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga package"`
 
 #### Gradle Args
 `"build -x test"`
