@@ -20,7 +20,7 @@ If you do not specify any BUILDER_ARGS, by default the s2i image will use the fo
 
 #### Maven Args
 `
-MAVEN_ARGS="package -Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga"
+MAVEN_ARGS="package -Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga package"
 `
 #### Gradle Args
 `BUILDER_ARGS="build -x test"`
