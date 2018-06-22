@@ -1,4 +1,4 @@
-###OpenShift S2I Builder for Java
+### OpenShift S2I Builder for Java
 This Source-to-Image Builder let's you create projects targetting Java OpenJDK 8 and built with:
 ##### Maven
 ##### Gradle
