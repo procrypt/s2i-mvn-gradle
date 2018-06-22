@@ -1,8 +1,12 @@
 ### OpenShift S2I Builder for Java
+
 This Source-to-Image Builder let's you create projects targetting Java OpenJDK 8 and built with:
+
 ##### Maven
 ##### Gradle
+
 NOTE: If a project has a pom.xml and a build.gradle, maven will take precedence
+
 This builder/runtime s2i image can be used with SpringBoot, Vert.X, Wildfly Swarm, DropWizard and many other microservices frameworks. 
 
 
