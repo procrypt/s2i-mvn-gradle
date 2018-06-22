@@ -27,5 +27,5 @@ If you do not specify any `BUILDER_ARGS`, by default the s2i image will use the 
 #### Gradle Args
 `build -x test`
 
-#### Test
+#### To test the image locally
 `$ make test`
