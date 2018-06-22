@@ -1,6 +1,6 @@
 ### OpenShift S2I Builder for Java
 
-This Source-to-Image Builder based on RHEL 7 let's you create projects targetting Java OpenJDK 8 and built with:
+This Source-to-Image Builder based on RHEL 7, let's you create projects targetting Java OpenJDK 8 and built with:
 
 ##### Maven or Gradle
 
